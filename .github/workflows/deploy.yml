@@ -16,7 +16,7 @@ jobs:
           git config --global user.email "nate.healea@gamil.com"
           git config --global user.name "Nathan Healea"
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Install dependencies
         run: |
           npm install
