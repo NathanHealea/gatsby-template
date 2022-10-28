@@ -3,7 +3,7 @@ import type { HeadFC } from "gatsby"
 
 const IndexPage = () => {
   return (
-   <main className='min-h-screen w-full bg-primary flex items-center justify-center text-white text-center'
+   <main className='flex-1 w-full bg-primary flex items-center justify-center text-white text-center'
    >
     <div>
       <h1 className='text-6xl pb-2'>Gatsby Static Content Starter</h1>
