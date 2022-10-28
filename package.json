@@ -15,7 +15,7 @@
     "clean": "gatsby clean",
     "typecheck": "tsc --noEmit",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
-    "deploy:ci": "gatsby build --prefix-paths && gh-pages -d public -r https://$GH_TOKEN@github.com:NathanHealea/gatsby-static-content-template.git"
+    "deploy:ci": "gatsby build --prefix-paths && gh-pages -d public -r https://$GH_TOKEN@github.com/NathanHealea/gatsby-static-content-template.git"
   },
   "dependencies": {
     "autoprefixer": "^10.4.13",
