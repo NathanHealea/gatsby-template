@@ -3,7 +3,15 @@
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
-    extend: {}
+    extend: {
+      typography: (theme) => ({
+        DEFAULT: {
+          css: {
+            maxWidth: '100%'
+          }
+        }
+      })
+    }
   },
   plugins: [require('@tailwindcss/typography'), require('daisyui')],
   daisyui: {
