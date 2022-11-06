@@ -7,8 +7,8 @@ const NotFoundPage = () => {
       <section className='hero'>
         <div className='hero-content text-center'>
           <div className='max-w-md'>
-            <h1 className='text-5xl font-bold my-4'>Woops...</h1>
-            <h3 className='text-2xl my-4'>Looks like you are lost!</h3>
+            <h1 >Woops...</h1>
+            <h3 >Looks like you're lost!</h3>
             
             <Link to="/" className='btn btn-primary'>Back to Home</Link>
           </div>

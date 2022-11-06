@@ -15,7 +15,7 @@ interface MainLayoutProps {
 const MainLayout: FC<MainLayoutProps> = (props) => {
   const { children } = props;
   return (
-    <div className='flex flex-col min-h-full prose prose-md sm:prose-lg lg:prose-xl'>
+    <div className='flex flex-col min-h-full prose '>
       <Navbar />
       {children}
       <Footer/>
