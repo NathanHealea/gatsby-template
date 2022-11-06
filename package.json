@@ -15,9 +15,17 @@
     "clean": "gatsby clean",
     "typecheck": "tsc --noEmit",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
-    "deploy:ci": "gatsby build --prefix-paths && gh-pages -d public -r https://$GH_TOKEN@github.com/NathanHealea/gatsby-static-content-template.git"
+    "deploy:ci": "gatsby build --prefix-paths && gh-pages -d public -r https://$GH_TOKEN@github.com/NathanHealea/gatsby-static-content-template.git",
+    "install:fontawesome": "yarn add @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/free-regular-svg-icons @fortawesome/free-brands-svg-icons @fortawesome/react-fontawesome@latest",
+    "uninstall:fontawesome": "yarn remove @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/free-regular-svg-icons @fortawesome/free-brands-svg-icons @fortawesome/react-fontawesome@latest"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/free-brands-svg-icons": "^6.2.0",
+    "@fortawesome/free-regular-svg-icons": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@headlessui/react": "^1.7.4",
     "autoprefixer": "^10.4.13",
     "daisyui": "^2.33.0",
     "gatsby": "^4.24.5",
